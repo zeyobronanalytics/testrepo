@@ -32,7 +32,7 @@ object SparkObj {
 					
 					df.write.format("parquet").save("file:///home/cloudera/hivewrited")
 
-
+					df.write.format("orc").save("file:///home/cloudera/hivewrited")
 			
 
 
